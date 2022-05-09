@@ -8,10 +8,9 @@
 import Foundation
 
 /*
- 28.实现 strStr()
+ 28.实现 strStr()（简单）
  https://leetcode.cn/problems/implement-strstr/
  */
-
 
 class Solution_28 {
     func strStr(_ haystack: String, _ needle: String) -> Int {
