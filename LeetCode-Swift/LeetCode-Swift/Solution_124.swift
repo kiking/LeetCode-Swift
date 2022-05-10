@@ -12,7 +12,7 @@ import Foundation
  https://leetcode.cn/problems/binary-tree-maximum-path-sum/
  */
 
-class Solution {
+class Solution_124 {
     func maxPathSum(_ root: TreeNode?) -> Int {
         var pathMax = Int.min
         
