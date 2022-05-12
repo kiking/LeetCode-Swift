@@ -17,7 +17,7 @@ import Foundation
  思路：归并排序，找中点和合并操作
  链表的递归函数调用空间复杂度：O(logn)，所以必须使用非递归
  */
-class Solution {
+class Solution_148 {
     func sortList(_ head: ListNode?) -> ListNode? {
         guard let item = head, item.next != nil else {
             return head
