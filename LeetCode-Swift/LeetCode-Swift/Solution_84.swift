@@ -33,7 +33,7 @@ class Solution_84 {
             }
             stack.append(i)
         }
-        
+
         // 遍历万后需要处理栈中剩余元素
         while !stack.isEmpty {
             let highest = heights[stack.popLast()!]
@@ -46,13 +46,13 @@ class Solution_84 {
         }
         return maxArea
     }
-    
+
     // 优化：单调栈+哨兵
     func largestRectangleArea_a(_ heights: [Int]) -> Int {
         if heights.count == 0 {
             return 0
         }
-        
+
         let heights = [0] + heights + [0]
         let nums = heights.count
         
