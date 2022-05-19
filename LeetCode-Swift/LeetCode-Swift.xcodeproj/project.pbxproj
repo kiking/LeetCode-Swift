@@ -41,6 +41,8 @@
 		4E0DED4D2834D2BE00DB7DD2 /* Solution_136.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0DED4C2834D2BE00DB7DD2 /* Solution_136.swift */; };
 		4E0DED4F2834DCDD00DB7DD2 /* Solution_137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0DED4E2834DCDD00DB7DD2 /* Solution_137.swift */; };
 		4E0DED512834E1A300DB7DD2 /* Solution_260.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0DED502834E1A300DB7DD2 /* Solution_260.swift */; };
+		4E0DED532835E1D100DB7DD2 /* Solution_191.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0DED522835E1D000DB7DD2 /* Solution_191.swift */; };
+		4E0DED552835E64800DB7DD2 /* Solution_338.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0DED542835E64800DB7DD2 /* Solution_338.swift */; };
 		4ED558C62828AE1300FB1B65 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED558C52828AE1200FB1B65 /* main.swift */; };
 		4ED558CD2828B07400FB1B65 /* Solution_28.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED558CC2828B07400FB1B65 /* Solution_28.swift */; };
 /* End PBXBuildFile section */
@@ -92,6 +94,8 @@
 		4E0DED4C2834D2BE00DB7DD2 /* Solution_136.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_136.swift; sourceTree = "<group>"; };
 		4E0DED4E2834DCDD00DB7DD2 /* Solution_137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_137.swift; sourceTree = "<group>"; };
 		4E0DED502834E1A300DB7DD2 /* Solution_260.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_260.swift; sourceTree = "<group>"; };
+		4E0DED522835E1D000DB7DD2 /* Solution_191.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_191.swift; sourceTree = "<group>"; };
+		4E0DED542835E64800DB7DD2 /* Solution_338.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_338.swift; sourceTree = "<group>"; };
 		4ED558C22828AE1200FB1B65 /* LeetCode-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED558C52828AE1200FB1B65 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4ED558CC2828B07400FB1B65 /* Solution_28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution_28.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				4E0DED4C2834D2BE00DB7DD2 /* Solution_136.swift */,
 				4E0DED4E2834DCDD00DB7DD2 /* Solution_137.swift */,
 				4E0DED502834E1A300DB7DD2 /* Solution_260.swift */,
+				4E0DED522835E1D000DB7DD2 /* Solution_191.swift */,
+				4E0DED542835E64800DB7DD2 /* Solution_338.swift */,
 			);
 			path = "LeetCode-Swift";
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				4E0DED2F282BB95200DB7DD2 /* Solution_148.swift in Sources */,
 				4ED558CD2828B07400FB1B65 /* Solution_28.swift in Sources */,
 				4E0DED22282A52D000DB7DD2 /* Solution_83.swift in Sources */,
+				4E0DED552835E64800DB7DD2 /* Solution_338.swift in Sources */,
 				4E0DED1628291BD500DB7DD2 /* Solution_236.swift in Sources */,
 				4E0DED29282B63AA00DB7DD2 /* Solution_92.swift in Sources */,
 				4E0DED12282911CA00DB7DD2 /* Solution_110.swift in Sources */,
@@ -241,6 +248,7 @@
 				4E0DED3B282E3E3300DB7DD2 /* Solution_155.swift in Sources */,
 				4E0DED20282A484500DB7DD2 /* Solution_701.swift in Sources */,
 				4E0DED2B282B9D7600DB7DD2 /* Solution_21.swift in Sources */,
+				4E0DED532835E1D100DB7DD2 /* Solution_191.swift in Sources */,
 				4E0DED412831E3AF00DB7DD2 /* Solution_94.swift in Sources */,
 				4E0DED512834E1A300DB7DD2 /* Solution_260.swift in Sources */,
 				4E0DED4B2833A21C00DB7DD2 /* Solution_542.swift in Sources */,
