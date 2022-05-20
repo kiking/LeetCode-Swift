@@ -12,7 +12,7 @@ import Foundation
  https://leetcode.cn/problems/search-insert-position/
  */
 
-class Solution {
+class Solution_35 {
     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         var start = 0
         var end = nums.count - 1
