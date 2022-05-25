@@ -12,7 +12,7 @@ import Foundation
  https://leetcode.cn/problems/unique-paths-ii/
  */
 
-class Solution {
+class Solution_63 {
     // 动态规划（自底向上）
     func uniquePathsWithObstacles(_ obstacleGrid: [[Int]]) -> Int {
         let m = obstacleGrid.count
