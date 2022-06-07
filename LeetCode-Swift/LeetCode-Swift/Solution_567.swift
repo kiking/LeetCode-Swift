@@ -62,4 +62,9 @@ class Solution_567 {
         }
         return false
     }
+    
+    func test() {
+        let s1 = "ab", s2 = "eidbaooo"
+        print(checkInclusion(s1, s2))
+    }
 }
