@@ -32,7 +32,7 @@ import Foundation
 class Solution_110 {
     func maxDepth(_ root: TreeNode?) -> Int {
         guard let node = root else { return 0 }
-        
+
         let leftNum = maxDepth(node.left)
         let rightNum = maxDepth(node.right)
         
@@ -42,17 +42,17 @@ class Solution_110 {
             return rightNum + 1
         }
     }
-    
+
     func isBalanced(_ root: TreeNode?) -> Bool {
         guard let node = root else { return true }
-        
+
         if !isBalanced(node.left) {
             return false
         }
         if isBalanced(node.right) {
             return false
         }
-        
+
         let leftNum = maxDepth(node.left)
         let rightNum = maxDepth(node.right)
         
