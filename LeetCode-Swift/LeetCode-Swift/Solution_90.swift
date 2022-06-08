@@ -16,7 +16,7 @@ class Solution_90 {
     func subsetsWithDup(_ nums: [Int]) -> [[Int]] {
         var res = [[Int]]()
         let sortedNums = nums.sorted()
-        
+
         func backtrack(start: Int, track: inout [Int]) {
             res.append(track)
             for index in start..<sortedNums.count {
@@ -28,7 +28,7 @@ class Solution_90 {
                 track.popLast()
             }
         }
-        
+
         var items = [Int]()
         backtrack(start: 0, track: &items)
 
